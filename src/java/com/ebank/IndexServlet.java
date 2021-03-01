@@ -40,7 +40,7 @@ public class IndexServlet extends HttpServlet {
 
     //  Database credentials
     static final String USER = "root";
-    static final String PASS = "630716";
+    static final String PASS = "{password}";
     Connection dbConnection = null;
       @Override
     public void init() throws ServletException {
